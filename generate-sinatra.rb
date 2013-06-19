@@ -12,9 +12,7 @@ inputs = {}
 exec_with_status("touch app.rb", inputs)
 exec_with_status("touch config.rb", inputs)
 exec_with_status("touch Gemfile", inputs)
-exec_with_status("mkdir public", inputs)
 exec_with_status("mkdir views", inputs)
-exec_with_status("mkdir views/images", inputs)
-exec_with_status("mkdir views/javascripts", inputs)
-exec_with_status("mkdir views/stylesheets", inputs)
-
+exec_with_status("mkdir -p public/images", inputs)
+exec_with_status("mkdir public/javascripts", inputs)
+exec_with_status("mkdir public/stylesheets", inputs)
