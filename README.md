@@ -1,4 +1,4 @@
 sinatra-generator
 =================
 
-Generator for a basic sinatra project
+Generator for a basic Sinatra project.
